@@ -21,3 +21,11 @@ GoVersion:"go1.16.6",
 Compiler:"gc", 
 Platform:"linux/amd64"
 ```
+
+## win
+
+```
+netsh int tcp set global autotuninglevel=restricted
+netsh interface tcp set heuristics disabled
+netsh int tcp set global rss=enabled
+```
