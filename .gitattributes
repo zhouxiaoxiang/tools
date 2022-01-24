@@ -1,3 +1,4 @@
 helm filter=lfs diff=lfs merge=lfs -text
 oc filter=lfs diff=lfs merge=lfs -text
 kubectl filter=lfs diff=lfs merge=lfs -text
+simhei.ttf filter=lfs diff=lfs merge=lfs -text
